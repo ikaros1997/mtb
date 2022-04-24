@@ -9,3 +9,9 @@ DATABASES = {
         "TEXT_CHARSET": "utf-8"
     }
 }
+
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": ["utils.ext.auth.JwtTokenAuthentication", ],
+    "UNAUTHENTICATED_USER": lambda: None,
+    "UNAUTHENTICATED_TOKEN": lambda: None,
+}

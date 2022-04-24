@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "apps.base.apps.BaseConfig",
     "apps.msg.apps.MsgConfig",
     "apps.task.apps.TaskConfig",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [

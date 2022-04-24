@@ -1,0 +1,23 @@
+# 成功
+SUCCESS = 0
+
+# 用户提交验证数据失效
+
+VALIDATE_ERROR = 1001
+
+# 认证失效
+
+AUTH_FAILED = 2000
+
+# 认证过期
+
+AUTH_OVERDUE = 2001
+
+# 无权访问
+
+PERMISSION_DENIED = 3000
+
+# 无权访问
+
+TO_MANY_REQUESTS = 4000
+
